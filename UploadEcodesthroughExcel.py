@@ -17,8 +17,8 @@ driver = webdriver.Chrome()  # Make sure to have the ChromeDriver installed
 driver.get('https://mtools-medialink-ui-stage.apps.an01.pcf.dcsg.com/#/media')  # Replace with your web application URL
 driver.maximize_window()
 time.sleep(3)
-driver.find_element(By.XPATH,"//input[@type='email']").send_keys("59")
-driver.find_element(By.XPATH,"//input[@data-placeholder='Please enter password']").send_keys("Htest76")
+driver.find_element(By.XPATH,"//input[@type='email']").send_keys("DKS0700659")
+driver.find_element(By.XPATH,"//input[@data-placeholder='Please enter password']").send_keys("Harshi@9876")
 driver.find_element(By.XPATH,"//span[@class='mat-button-wrapper']").click()
 time.sleep(3)
 # Locate the textbox (adjust the locator as necessary)
