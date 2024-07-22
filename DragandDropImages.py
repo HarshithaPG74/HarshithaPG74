@@ -6,12 +6,12 @@ import time
 from pynput.keyboard import Key,Controller
 
 driver = webdriver.Chrome()
-driver.get("https://mtools-media-link-ui-dev.apps.an01.pcf.dcsg.com/#/media")
+driver.get("test123")
 time.sleep(2)
 driver.maximize_window()
 driver.implicitly_wait(10)
-driver.find_element(By.XPATH,"//input[@type='email']").send_keys("DKS0700659")
-driver.find_element(By.XPATH,"//input[@data-placeholder='Please enter password']").send_keys("Harshi@9876")
+driver.find_element(By.XPATH,"//input[@type='email']").send_keys("test11")
+driver.find_element(By.XPATH,"//input[@data-placeholder='Please enter password']").send_keys("test@11")
 driver.find_element(By.XPATH,"//span[@class='mat-button-wrapper']").click()
 
 dashboard=driver.find_element(By.XPATH,"//textarea[@placeholder='Enter multiple styles or ecodes separated by commas, semi-colons, or line breaks']")
